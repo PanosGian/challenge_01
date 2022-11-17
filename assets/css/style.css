@@ -46,10 +46,21 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 24px;
-
+/*Change color on the linked tag*/
+a:hover{
+color:brown;
 }
+
+
+p {
+    font-size: 16px;
+}
+
+/*Change the propertis (font size) in paragraph (p) tags when the mouse hovers*/
+p:hover{
+    font-size: 28px;
+}
+
 
 .hero {
     height: 800px;
@@ -69,6 +80,7 @@ p {
     float: right;
     margin-left: 25px;
 }
+
 
 .content {
     width: 75%;
@@ -137,6 +149,7 @@ p {
    
 }
 
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -180,6 +193,13 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/*Change the img size within conent when the mouse hovers*/
+img:hover {
+    max-height: 110%;
+ }
+ 
+
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
